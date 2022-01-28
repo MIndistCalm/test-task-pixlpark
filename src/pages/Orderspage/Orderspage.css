@@ -1,0 +1,32 @@
+.orderspage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.orderspage-list {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid black ;
+  font-size: 14px;
+}
+.orderspage-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.orderspage-list-link {
+  display: flex;
+  text-decoration: none;
+  color: black;
+}
+.orderspage-list-link:hover {
+  color: rgb(173, 148, 101);
+}
+
+.orderspage-list-link-index{
+  padding-right: 1vw;
+}
+
+.orderspage-list-link-Title{
+  width: 80vw;
+}

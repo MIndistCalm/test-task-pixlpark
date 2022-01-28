@@ -1,0 +1,32 @@
+.itempage {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.itempage-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.itempage-item-preview {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 0 1% 0 0;
+}
+.itempage-item-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 0 0 1%;
+}
+.itempage-back-button {
+  text-align: center;
+  min-width: 70px;
+  width: 10vw;
+  margin: 1vh 0;
+}
+.itempage-item-preview-image {
+  width: 100%;
+}

@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 1vh;
+}
+.header-logo {
+  height: 100px;
+}
+.header-navigation {
+  display: flex;
+  justify-content: space-around;
+}
